@@ -1,0 +1,16 @@
+{
+    // See https://code.visualstudio.com/docs/editor/tasks for more information
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Flutter Web (Chrome) on port 2026",
+            "type": "shell",
+            "command": "flutter run -d chrome --web-port=2026",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
